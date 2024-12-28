@@ -526,7 +526,7 @@
     ]
   },
   "music_production": {
-    "triggers": ["music production", "producing", "daw", "studio"],
+    "triggers": ["production", "producing", "daw", "studio"],
     "response": "Here are some music production resources that might help:",
     "suggestions": {
       "tools": [{
@@ -551,3 +551,4 @@
       }]
     }
   }
+}
