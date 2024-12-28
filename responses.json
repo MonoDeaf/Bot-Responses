@@ -524,5 +524,54 @@
       "Tell me a joke",
       "Get EPK"
     ]
+  },
+  {
+  "music_production": {
+    "triggers": ["music production", "producing", "daw", "studio"],
+    "response": "Here are some music production resources that might help:",
+    "suggestions": [
+      {
+        "type": "tool",
+        "title": "Ableton Live",
+        "description": "Professional DAW for music production and live performance",
+        "link": "https://www.ableton.com",
+        "image": "/a/0792f6b6-d435-4a96-ae34-05143f1ab884"
+      },
+      {
+        "type": "tool",
+        "title": "FL Studio",
+        "description": "Popular DAW known for its intuitive interface.",
+        "link": "https://www.image-line.com",
+        "image": "/a/df12f6b6-d435-4a96-ae34-05143f1bb991"
+      },
+      {
+        "type": "tool",
+        "title": "Splice",
+        "description": "Royalty-free samples and loops for your projects.",
+        "link": "https://splice.com",
+        "image": "/a/1a9b4b2f-c345-4a91-b321-072f4b6d991"
+      }
+    ]
+  },
+  "featured_artists": {
+    "triggers": ["artists", "musicians", "recommendations"],
+    "response": "Here are some featured artists to check out:",
+    "suggestions": [
+      {
+        "type": "artist",
+        "title": "MonoDeaf",
+        "description": "Experimental electronic music producer.",
+        "link": "https://soundcloud.com/monodeaf",
+        "image": "/a/93b21f6b6-d435-4a96-ae34-05143f1ab884"
+      },
+      {
+        "type": "artist",
+        "title": "NitePunk",
+        "description": "Bass-heavy electronic music artist.",
+        "link": "https://nitepunk.com",
+        "image": "/a/1832f6b6-d435-4a96-ae34-05143f1bb784"
+      }
+    ]
   }
+}
 }
