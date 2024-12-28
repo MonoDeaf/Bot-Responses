@@ -529,9 +529,9 @@
     "triggers": ["production", "producing", "daw", "studio"],
     "response": "Here are some music production resources that might help:",
     "suggestions": {
-      tools: [{
-        type: "tool",
-        title: "Ableton Live",
+      "tools": [{
+        "type": "tool",
+        "title": "Ableton Live",
         "description": "Professional DAW for music production and live performance",
         "link": "https://www.ableton.com",
         "image": "/a/0792f6b6-d435-4a96-ae34-05143f1ab884" 
