@@ -527,20 +527,22 @@
   },
   "artists": {
     "triggers": ["artists", "similar artists", "recommend artists"],
-    "response": "Here are some artists you might enjoy:",
+    "response": "✦ Here are some artists you might enjoy!",
     "type": "recommendations",
     "recommendations": [
       {
-        "title": "Dark Symphony",
-        "description": "Electronic metal fusion with orchestral elements",
+        "title": "jjjacksen",
+        "description": "Hight-energy distorted tearout artist",
         "image": "https://via.placeholder.com/200x120",
-        "tags": ["Metal", "Electronic", "Orchestral"]
+        "tags": ["Tearout", "Electronic", "Distortion"],
+        "link": "https://example.com"
       },
       {
         "title": "Neon Pulse",
         "description": "High-energy synthwave with heavy bass",
         "image": "https://via.placeholder.com/200x120",
-        "tags": ["Synthwave", "Electronic"]
+        "tags": ["Synthwave", "Electronic"],
+        "link": "https://example.com"
       }
     ]
   }
