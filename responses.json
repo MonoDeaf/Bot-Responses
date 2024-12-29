@@ -532,14 +532,14 @@
     "recommendations": [
       {
         "title": "jjjacksen",
-        "description": "Hight-energy distorted tearout artist",
-        "image": "https://via.placeholder.com/200x120",
+        "description": "High-energy distorted tearout artist",
+        "image": "https://i1.sndcdn.com/avatars-eobnGgg434ryfRLj-dFWndQ-t500x500.jpg",
         "tags": ["Tearout", "Electronic", "Distortion"],
-        "link": "https://example.com"
+        "link": "https://open.spotify.com/artist/6RRecPCUROUEz421PNphX7"
       },
       {
-        "title": "Neon Pulse",
-        "description": "High-energy synthwave with heavy bass",
+        "title": "LVNARESENCE",
+        "description": "Strong melodic dubstep production",
         "image": "https://via.placeholder.com/200x120",
         "tags": ["Synthwave", "Electronic"],
         "link": "https://example.com"
