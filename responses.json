@@ -525,7 +525,6 @@
       "Get EPK"
     ]
   },
-  {
   "artists": {
     "triggers": ["artists", "similar artists", "recommend artists"],
     "response": "Here are some artists you might enjoy:",
