@@ -525,30 +525,24 @@
       "Get EPK"
     ]
   },
-  "music_production": {
-    "triggers": ["production", "producing", "daw", "studio"],
-    "response": "Here are some music production resources that might help:",
-    "suggestions": {
-      "tools": [{
-        "type": "tool",
-        "title": "Ableton Live",
-        "description": "Professional DAW for music production and live performance",
-        "link": "https://www.ableton.com",
-        "image": "/a/0792f6b6-d435-4a96-ae34-05143f1ab884" 
-      }, {
-        "type": "tool",
-        "title": "FL Studio",
-        "description": "Popular DAW with intuitive workflow for beat-making",
-        "link": "https://www.image-line.com",
-        "image": "/a/0792f6b6-d435-4a96-ae34-05143f1ab884" 
-      }],
-      "people": [{
-        "type": "person",
-        "title": "Rick Rubin",
-        "description": "Legendary music producer known for diverse genre work",
-        "link": "https://en.wikipedia.org/wiki/Rick_Rubin",
-        "image": "/a/0792f6b6-d435-4a96-ae34-05143f1ab884" 
-      }]
-    }
+  {
+  "artists": {
+    "triggers": ["artists", "similar artists", "recommend artists"],
+    "response": "Here are some artists you might enjoy:",
+    "type": "recommendations",
+    "recommendations": [
+      {
+        "title": "Dark Symphony",
+        "description": "Electronic metal fusion with orchestral elements",
+        "image": "https://via.placeholder.com/200x120",
+        "tags": ["Metal", "Electronic", "Orchestral"]
+      },
+      {
+        "title": "Neon Pulse",
+        "description": "High-energy synthwave with heavy bass",
+        "image": "https://via.placeholder.com/200x120",
+        "tags": ["Synthwave", "Electronic"]
+      }
+    ]
   }
 }
